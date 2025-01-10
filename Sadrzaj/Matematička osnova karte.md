@@ -21,15 +21,15 @@ Izrada matematičke osnove karte (sitnog mjerila) uključuje: (1) određivanje m
 
 ## Koraci u izradi matematičke osnove karte
 
-**(1) Izbor kartografske projekcije**
+**1. Izbor kartografske projekcije**
 
 Svaki student treba samostalno odabrati najpovoljniju kartografsku projekciju za zadano područje. Najpovoljnija projekcija je ona koja, prema određenom matematičkom kriteriju, ima najmanje ukupne deformacije u usporedbi s drugim projekcijama na promatranom području. Detaljnije informacije o faktorima koji utječu na izbor projekcije za izradu geografskih karata u mjerilu 1:1 000 000 i sitnijem mogu se pronaći u skripti Kartografske projekcije (Frančula, 2004), u poglavlju *Izbor projekcije*.
 
-**(2) Određivanje vrijednosti parametara projekcije**
+>**1.1 Određivanje vrijednosti parametara projekcije**
 
 Za odabranu kartografsku projekciju potrebno je odrediti parametre na temelju veličine i položaja zadanog područja.
 
-**(3) Definiranje koordinatnog sustava izabrane kartografske projekcije**
+>**1.2 Definiranje koordinatnog sustava izabrane kartografske projekcije**
 
 Potrebno je definirati korisnički koordinatni sustav, *Custom CRS (Coordinate Reference System)*, sa svim potrebnim parametrima za odabranu kartografsku projekciju. Kao primjer koristit će se uspravna konformna konusna projekcija s referentnim elipsoidom WGS84, jednom standardnom paralelom koja prolazi sredinom područja preslikavanja i srednjim meridijanom područja preslikavanja. Projekcija se definira pomoću sintakse [PROJ](https://proj.org/en/9.5/)-a, koja se koristi unutar QGIS-a za preciznu transformaciju koordinata između različitih kartografskih projekcija i referentnih sustava.
 
