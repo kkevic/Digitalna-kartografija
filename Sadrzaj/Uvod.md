@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Network Analysis
-nav_order: 4
-has_children: true
+title: Uvod
+nav_order: 1
+has_children: false
 ---
 # Općegeografska karta sitnog mjerila 
 
