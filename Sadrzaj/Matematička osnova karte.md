@@ -17,4 +17,4 @@ Po završetku  ovih vježbi student će moći:
 # Koncepti koji će se upotrijebiti na vježbama
 Izrada matematičke osnove karte (sitnog mjerila) uključuje: (1) određivanje mjerila karte, (2) izbor najpovoljnije kartografske projekcije, (3) oblikovanje kartografske mreže i (4) kompoziciju karte. Kompozicija karte podrazumijeva određivanje granica područja preslikavanja i smještaj područja unutar okvira karte te razmještaj naziva, mjerila i tumača znakova karte. Potonje će se obraditi u narednim vježbama kada karta bude dopunjena sadržajem.
 
-[matem_osnova](./Slike/Mat osnova grafike_path.svg)
+![matem_osnova](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Mat%20osnova%20grafike_path.svg)
