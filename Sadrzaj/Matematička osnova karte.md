@@ -22,4 +22,5 @@ Izrada matematičke osnove karte (sitnog mjerila) uključuje: (1) određivanje m
 ## Koraci u izradi matematičke osnove karte
 
 **(1) Izbor kartografske projekcije**
+
 Svaki student treba samostalno odabrati najpovoljniju kartografsku projekciju za zadano područje. Najpovoljnija projekcija je ona koja, prema određenom matematičkom kriteriju, ima najmanje ukupne deformacije u usporedbi s drugim projekcijama na promatranom području. Detaljnije informacije o faktorima koji utječu na izbor projekcije za izradu geografskih karata u mjerilu 1:1 000 000 i sitnijem mogu se pronaći u skripti Kartografske projekcije (Frančula, 2004), u poglavlju *Izbor projekcije*.
