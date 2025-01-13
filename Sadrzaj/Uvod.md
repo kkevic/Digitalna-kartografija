@@ -31,7 +31,7 @@ Po završetku ovih vježbi student će moći:
 
 ## Nužni preduvjeti za izradu karte
 
-Za izradu karte potrebno je imati instaliran QGIS ili neki drugi GIS softver te pristup internetu zbog preuzimanja podataka. 
+Za izradu karte potrebno je imati instaliran QGIS ili neki drugi GIS softver te pristup internetu zbog preuzimanja podataka za izradu karte. 
 
 >[!NOTE]
 > Ovi materijali prilagođeni su za izradu karte u QGIS-u, verzija [QGIS 3.26 Buenos Aires](https://blog.qgis.org/2022/06/24/qgis-3-26-buenos-aires-is-released/), ali su navedeni koncepti univerzalni i primijenjivi za izradu karte u bilo kojem programu za izradu karte. Verzija QGIS-a nije zadana i dana je studentu na izbor. Imajte na umu da se nazivi alata i naredbi mogu razlikovati ovisno o korištenoj verziji.
