@@ -12,7 +12,7 @@ Ovi nastavni materijali uz vježbe namijenjeni su studentima kolegija **Digitaln
 Općegeografske karte sitnog mjerila prikazuju 7 osnovnih skupova podataka (reljef, vode, vegetacija, naselja, promet, administrativne granice, opis karte) koji se zbog mjerila karte susreću s različitim problemima prikaza. U ovim materijalima dane su smjernice na što obratiti pozornost prilikom prikazivanja podataka na takvoj karti te kako podatke prilagoditi za prikaz u traženom mjerilu.
 
 > [!NOTE]
-> Na općegeografskim kartama sitnog mjerila (1:1 000 000 - 1:20 000 000), vegetacija se u pravilu ne prikazuje zbog preklapanja s hipsometrijskom skalom korištenom za prikazivanje reljefa.
+> Na općegeografskim kartama sitnog mjerila (1:1 000 000 - 1:20 000 000), vegetacija se u pravilu ne prikazuje zbog preklapanja s hipsometrijskom skalom boja korištenom za prikazivanje reljefa.
 
 ## Cilj vježbi
 Kroz praktične vježbe savladati metode i postupke izrade karte primjenom digitalne tehnologije.
