@@ -7,7 +7,7 @@ has_children: true
 # Izrada općegeografske karte zadanog područja u sitnom mjerilu
 **(OD PRIKUPLJANJA PODATAKA ZA PRIKAZ NA KARTI DO PRIPREME ZA TISAK)**
 
-Ovi materijali namijenjeni su studentima kolegija **Digitalna kartografija na Geodetskom fakulteta Sveučilišta u Zagrebu** i sadrže smjernice za računalom podržanu izradu općegeografske karte zadanog područja u sitnom mjerilu.
+Ovi nastavni materijali uz vježbe namijenjeni su studentima kolegija **Digitalna kartografija na Geodetskom fakulteta Sveučilišta u Zagrebu** i sadrže smjernice za računalom podržanu izradu općegeografske karte zadanog područja u sitnom mjerilu.
 
 Karta je umanjen i uvjetno deformiran prikaz Zemljine površine. Da bi se izradile karte koje dobro opisuju Zemljinu površinu, kartografi trebaju čvrste temelje iz kartografskih osnova i visoki stupanj estetskih normi. Osim temeljnim znanjima kartografije, u dobu suvremene kartografije koje se oslanja na digitalne tehnologije, kartograf mora razumijeti snagu analitičke kartografije te ovladati alatima računalne kartografije kako bi bio sposoban odgovoriti na zahtjeve koji se postavljaju na suvremenu kartografsku djelatnost.
 
@@ -20,12 +20,15 @@ Općegeografske karte sitnog mjerila prikazuju 7 osnovnih skupova podataka (relj
 Kroz praktične vježbe savladati metode i postupke izrade karte primjenom digitalne tehnologije.
 
 ## Ishodi učenja
+
+![Bloom](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Bloom_razine%20sve.svg)
 Po završetku ovih vježbi student će moći:
 - > Razumjeti tijek izrade kartografskog prikaza i usvojiti temelje iz kartografskih osnova i visoki stupanj estetskih normi za oblikovanje kartografskog prikaza biti upoznat s autorskim pravima i pravima na upotrebu različitih izvornika,
 - > Razumjeti i znati primijeniti analitičke postupke u kartografiji,
 - > Razumjeti i znati izraditi matematičku osnovu karte,
 - > Razumjeti i znati primijeniti postupke ručne/interaktivne generalizacije na podacima karte u nekom od programa za kartografiju i GIS,
 - > Razumjeti i znati primijeniti sastavne dijelove kartografike na podacima karte u nekom od programa za kartografiju i GIS.
+
 
 
 > [!IMPORTANT]
