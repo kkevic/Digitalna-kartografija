@@ -33,9 +33,7 @@ Za odabranu kartografsku projekciju potrebno je odrediti parametre na temelju ve
 
 Potrebno je definirati korisnički koordinatni sustav, *Custom CRS (Coordinate Reference System)*, sa svim potrebnim parametrima za odabranu kartografsku projekciju. Kao primjer koristit će se uspravna konformna konusna projekcija s referentnim elipsoidom WGS84, jednom standardnom paralelom koja prolazi sredinom područja preslikavanja i srednjim meridijanom područja preslikavanja. Projekcija se definira pomoću sintakse [PROJ](https://proj.org/en/9.5/)-a, koja se koristi unutar QGIS-a za preciznu transformaciju koordinata između različitih kartografskih projekcija i referentnih sustava.
 
-<p align="center">
-  <img width="460" height="300" src=[UserDefinedCRS](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/UserDefinedCRS.png)>
-</p>
+![UserDefinedCRS](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/UserDefinedCRS.png)
 
 *Primjer definicije korisničkog koordinatnog sustava Lambertove konformne konusne projekcije s jednom standardnom paralelom pomoću sintakse PROJ-a.*
 
