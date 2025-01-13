@@ -7,8 +7,7 @@ parent: Uvod
   
 # Matematička osnova karte 
 
-<p align="justify">Na ovim vježbama student će se upoznati sa zadanim područjem za izradu karte u sitnom mjerilu.
-Na temelju oblika i pružanja zadanog teritorija, student će odabrati najpovoljniju kartografsku projekciju, definirati njezine parametre, te na osnovu toga konstruirati mrežu meridijana i paralela odgovarajuće gustoće, kao i pravokutni unutarnji okvir karte.
+<p align="justify">Izrada matematičke osnove karte (sitnog mjerila) uključuje: (1) određivanje mjerila karte, (2) izbor najpovoljnije kartografske projekcije, (3) oblikovanje kartografske mreže i (4) kompoziciju karte. Kompozicija karte podrazumijeva određivanje granica područja preslikavanja i smještaj područja unutar okvira karte te razmještaj naziva, mjerila i tumača znakova karte. Potonje će se obraditi u poglavlju Opis karte.
 
 ## Ishodi učenja
 
@@ -19,7 +18,7 @@ Po završetku  ovih vježbi student će moći:
 
 ## Koncepti koji će se upotrijebiti na vježbama
 
-Izrada matematičke osnove karte (sitnog mjerila) uključuje: (1) određivanje mjerila karte, (2) izbor najpovoljnije kartografske projekcije, (3) oblikovanje kartografske mreže i (4) kompoziciju karte. Kompozicija karte podrazumijeva određivanje granica područja preslikavanja i smještaj područja unutar okvira karte te razmještaj naziva, mjerila i tumača znakova karte. Potonje će se obraditi u narednim vježbama kada karta bude dopunjena sadržajem.
+Na ovim vježbama student će se upoznati sa zadanim područjem za izradu karte u sitnom mjerilu. Na temelju oblika i pružanja zadanog teritorija, student će odabrati najpovoljniju kartografsku projekciju, definirati njezine parametre, te na osnovu toga konstruirati mrežu meridijana i paralela odgovarajuće gustoće, kao i pravokutni unutarnji okvir karte.
 
 <p align="center">
 <img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Mat%20osnova%20grafike_path.svg">
