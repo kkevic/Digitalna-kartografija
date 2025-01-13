@@ -21,7 +21,8 @@ Po završetku  ovih vježbi student će moći:
 
 Izrada matematičke osnove karte (sitnog mjerila) uključuje: (1) određivanje mjerila karte, (2) izbor najpovoljnije kartografske projekcije, (3) oblikovanje kartografske mreže i (4) kompoziciju karte. Kompozicija karte podrazumijeva određivanje granica područja preslikavanja i smještaj područja unutar okvira karte te razmještaj naziva, mjerila i tumača znakova karte. Potonje će se obraditi u narednim vježbama kada karta bude dopunjena sadržajem.
 
-![matem_osnova](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Mat%20osnova%20grafike_path.svg)
+<p align="center">
+<img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Mat%20osnova%20grafike_path.svg">
 
 ## Koraci u izradi matematičke osnove karte
 
@@ -48,7 +49,8 @@ Općenito, pri izradi karte mogu se javiti dva slučaja za određivanje mjerila:
 
 U zadatku na vježbama ***mjerilo karte uvjetovano je veličinom papira*** – formatom papira A4. Vrijednost mjerila moguće je odrediti nakon uspostavljanja veze između veličine područja za izradu karte (u ravnini kartografske projekcije) i veličine papira.
 
->Mjerilo je moguće odrediti korištenjem modula QGIS-a Print *Layout*. Mjerilo je potrebno odabrati tako da bude zaokruženo na smislenu cjelobrojnu vrijednost.
+> [!TIP]
+> Mjerilo je moguće odrediti korištenjem modula QGIS-a Print *Layout*. Mjerilo je potrebno odabrati tako da bude zaokruženo na smislenu cjelobrojnu vrijednost.
 
 **2. Konstruiranje kartografske mreže u koordinatnom sustavu uspravne ekvidistantne cilindrične projekcije (x=λ, y=φ) – Lat/Lon pseudoprojekcija**
 
@@ -60,7 +62,8 @@ Optimalna gustoća linija kartografske mreže određuje se prema:
 - > Na ekvatoru je 1° približno 110 km.
 - > Ako je npr. mjerilo karte 1:1 000 000 tada je 5 cm na karti 50 km u prirodi, odnosno približno 0,5°.
 
-Kako prilikom transformacije mreže u izabranu projekciju ne bi došlo do gubitka koordinatnih linija (uslijed moguće promjene oblika mreže, npr. kod konusnih projekcija) potrebno je konstruirati kartografsku mrežu (zadane gustoće) koja je **šira** od zadanog područja.
+> [!IMPORTANT]
+> Kako prilikom transformacije mreže u izabranu projekciju ne bi došlo do gubitka koordinatnih linija (uslijed moguće promjene oblika mreže, npr. kod konusnih projekcija) potrebno je konstruirati kartografsku mrežu (zadane gustoće) koja je **šira** od zadanog područja.
 
 Za iscrtavanje kartografske mreže, koja je sa svake strane šira od granica zadanog područja, može se koristiti alat *Create Grid* iz trake s alatima *Vector* > *Research Tools*.
 
@@ -70,7 +73,8 @@ Za iscrtavanje kartografske mreže, koja je sa svake strane šira od granica zad
 <p align="center"> <i>Primjer zadavanja parametara za iscrtavanje linijske mreže meridijana i paralela koja 
 obuhvaća šire područje u odnosu na dano područje.<br/> (Unos: Grid type: linija, Grid extent: minimalna i maksimalna vrijednost geografske duljine i širine granice područja uvećana za nekoliko sa svake strane granice područja, horizontal/vertical spacing: u ovisnosti o mjerilu određena gustoća mreže.)</i></p>
 
-**Napomena:** Voditi računa da mreža bude centrirana u odnosu na područje za koje se karta izrađuje (širina obuhvata (*extent*) mreže u odnosu na izračunatu gustoću mreže).
+> [!TIP]
+> Voditi računa da mreža bude centrirana u odnosu na područje za koje se karta izrađuje (širina obuhvata (*extent*) mreže u odnosu na izračunatu gustoću mreže).
 
 **3. Progušćivanje geometrije**
 
@@ -103,7 +107,8 @@ Granica područja, koja je prvotno bila pravokutna, može izgubiti taj oblik nak
 
 Dobiveni okvir potrebno je spremiti u vanjsku datoteku shapefile u koordinatnom sustavu izabrane kartografske projekcije.
 
-**Napomena:** Unutarnji okvir karte možda će biti potrebno dodatno modificirati, ovisno o kompoziciji karte i smještaju izvanokvirnog sadržaja karte. Takva prilagodba omogućit će optimalno raspoređivanje sadržaja karte i osigurati da svi elementi karte budu jasno vidljivi.
+> [!NOTE]
+> Unutarnji okvir karte možda će biti potrebno dodatno modificirati, ovisno o kompoziciji karte i smještaju izvanokvirnog sadržaja karte. Takva prilagodba omogućit će optimalno raspoređivanje sadržaja karte i osigurati da svi elementi karte budu jasno vidljivi.
 
 **6. Izrezivanje šire mreže meridijana i paralela na unutarnji okvir karte**
 
