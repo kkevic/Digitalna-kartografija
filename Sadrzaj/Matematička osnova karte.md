@@ -68,9 +68,7 @@ Za iscrtavanje kartografske mreže, koja je sa svake strane šira od granica zad
 <img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/1_1_Create%20Grid%20Window.PNG">
 
 <p align="center"> <i>Primjer zadavanja parametara za iscrtavanje linijske mreže meridijana i paralela koja 
-obuhvaća šire područje u odnosu na dano područje.</i></p>
-
-<p align="center"> <i>(Unos: Grid type: linija, Grid extent: minimalna i maksimalna vrijednost geografske duljine i širine granice područja uvećana za nekoliko sa svake strane granice područja, horizontal/vertical spacing: u ovisnosti o mjerilu određena gustoća mreže.)</i></p>
+obuhvaća šire područje u odnosu na dano područje.<br/> (Unos: Grid type: linija, Grid extent: minimalna i maksimalna vrijednost geografske duljine i širine granice područja uvećana za nekoliko sa svake strane granice područja, horizontal/vertical spacing: u ovisnosti o mjerilu određena gustoća mreže.)</i></p>
 
 **Napomena:** Voditi računa da mreža bude centrirana u odnosu na područje za koje se karta izrađuje (širina obuhvata (*extent*) mreže u odnosu na izračunatu gustoću mreže).
 
@@ -83,9 +81,7 @@ Progustiti geometriju dodavanjem lomnih točaka moguće je primjenom alata: *Vec
 <p align="center">
 <img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Densify%20by%20count.png">
 
-<p align="center"> <i>Primjer dodavanja lomnih točaka okviru.</i></p>
-
-<p align="center"> <i>(Input layer: sloj granice područja, Vertices to add: proizvoljan)</i></p>
+<p align="center"> <i>Primjer dodavanja lomnih točaka okviru.<br/>(Input layer: sloj granice područja, Vertices to add: proizvoljan)</i></p>
 
 <p align="center">
 <img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Progusceno.png">
@@ -121,9 +117,7 @@ Mreža, koja je prekrivala šire područje od zadanog, odrezana je na unutarnji 
 <p align="center">
 <img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Intersection_alat.png">
 
-<p align="center"> <i>Primjer izbora parametara za presjek slojeva mreže i okvira.</i></p>
-
-<p align="center"> <i>(Input layer: sloj koji se reže, Overlay layer: sloj po kojem se reže)</i></p>
+<p align="center"> <i>Primjer izbora parametara za presjek slojeva mreže i okvira.<br/>(Input layer: sloj koji se reže, Overlay layer: sloj po kojem se reže)</i></p>
 
 Dobiveni sloj potrebno je spremiti u vanjsku datoteku shapefile u koordinatnom sustavu izabrane kartografske projekcije.
 
