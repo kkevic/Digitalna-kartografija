@@ -4,17 +4,21 @@ title: Matematicka osnova karte
 nav_order: 2
 parent: Uvod
 ---
+  
 # Izrada matematičke osnove karte 
 
-Na ovim vježbama student će se upoznati sa zadanim područjem za izradu karte u sitnom mjerilu.
-Na temelju oblika i pružanja zadanog teritorija, student će odabrati najpovoljniju kartografsku projekciju, definirati njezine parametre, te na osnovu toga konstruirati mrežu meridijana i paralela odgovarajuće gustoće, kao i pravokutni unutarnji okvir karte. 
+<p align="justify">Na ovim vježbama student će se upoznati sa zadanim područjem za izradu karte u sitnom mjerilu.
+Na temelju oblika i pružanja zadanog teritorija, student će odabrati najpovoljniju kartografsku projekciju, definirati njezine parametre, te na osnovu toga konstruirati mrežu meridijana i paralela odgovarajuće gustoće, kao i pravokutni unutarnji okvir karte.
 
 ## Ishodi učenja
+
 Po završetku  ovih vježbi student će moći:
+  
 - > kritički razmotriti te samostalno odabrati, definirati i pridružiti koordinatni sustav najpovoljnije kartografske projekcije za prikaz dodijeljenog dijela svijeta
 - >	primijeniti alate za konstruiranje unutarnjeg okvira i kartografske mreže za zadano područje u najpovoljnijoj kartografskoj projekciji.
 
 ## Koncepti koji će se upotrijebiti na vježbama
+
 Izrada matematičke osnove karte (sitnog mjerila) uključuje: (1) određivanje mjerila karte, (2) izbor najpovoljnije kartografske projekcije, (3) oblikovanje kartografske mreže i (4) kompoziciju karte. Kompozicija karte podrazumijeva određivanje granica područja preslikavanja i smještaj područja unutar okvira karte te razmještaj naziva, mjerila i tumača znakova karte. Potonje će se obraditi u narednim vježbama kada karta bude dopunjena sadržajem.
 
 ![matem_osnova](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Mat%20osnova%20grafike_path.svg)
@@ -33,9 +37,10 @@ Za odabranu kartografsku projekciju potrebno je odrediti parametre na temelju ve
 
 Potrebno je definirati korisnički koordinatni sustav, *Custom CRS (Coordinate Reference System)*, sa svim potrebnim parametrima za odabranu kartografsku projekciju. Kao primjer koristit će se uspravna konformna konusna projekcija s referentnim elipsoidom WGS84, jednom standardnom paralelom koja prolazi sredinom područja preslikavanja i srednjim meridijanom područja preslikavanja. Projekcija se definira pomoću sintakse [PROJ](https://proj.org/en/9.5/)-a, koja se koristi unutar QGIS-a za preciznu transformaciju koordinata između različitih kartografskih projekcija i referentnih sustava.
 
-![UserDefinedCRS](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/UserDefinedCRS.png)
+<p align="center">
+<img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/UserDefinedCRS.png">
 
-*Primjer definicije korisničkog koordinatnog sustava Lambertove konformne konusne projekcije s jednom standardnom paralelom pomoću sintakse PROJ-a.*
+<p align="center"> <i>Primjer definicije korisničkog koordinatnog sustava Lambertove konformne konusne projekcije s jednom standardnom paralelom pomoću sintakse PROJ-a.</i></p>
 
 >**1.3 Određivanje mjerila**
 
@@ -43,7 +48,7 @@ Općenito, pri izradi karte mogu se javiti dva slučaja za određivanje mjerila:
 
 U zadatku na vježbama ***mjerilo karte uvjetovano je veličinom papira*** – formatom papira A4. Vrijednost mjerila moguće je odrediti nakon uspostavljanja veze između veličine područja za izradu karte (u ravnini kartografske projekcije) i veličine papira.
 
-Mjerilo je moguće odrediti korištenjem modula QGIS-a Print *Layout*. Mjerilo je potrebno odabrati tako da bude zaokruženo na smislenu cjelobrojnu vrijednost.
+>Mjerilo je moguće odrediti korištenjem modula QGIS-a Print *Layout*. Mjerilo je potrebno odabrati tako da bude zaokruženo na smislenu cjelobrojnu vrijednost.
 
 **2. Konstruiranje kartografske mreže u koordinatnom sustavu uspravne ekvidistantne cilindrične projekcije (x=λ, y=φ) – Lat/Lon pseudoprojekcija**
 
@@ -59,13 +64,13 @@ Kako prilikom transformacije mreže u izabranu projekciju ne bi došlo do gubitk
 
 Za iscrtavanje kartografske mreže, koja je sa svake strane šira od granica zadanog područja, može se koristiti alat *Create Grid* iz trake s alatima *Vector* > *Research Tools*.
 
-![Create grid](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/1_1_Create%20Grid%20Window.PNG)
+<p align="center">
+<img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/1_1_Create%20Grid%20Window.PNG">
 
-*Primjer zadavanja parametara za iscrtavanje linijske mreže meridijana i paralela koja 
-obuhvaća šire područje u odnosu na dano područje.*
+<p align="center"> <i>Primjer zadavanja parametara za iscrtavanje linijske mreže meridijana i paralela koja 
+obuhvaća šire područje u odnosu na dano područje.</i></p>
 
-*(Unos: Grid type: linija, Grid extent: minimalna i maksimalna vrijednost geografske duljine i širine granice područja uvećana za nekoliko sa svake strane granice područja, horizontal/vertical spacing: 
-u ovisnosti o mjerilu određena gustoća mreže.)*
+<p align="center"> <i>(Unos: Grid type: linija, Grid extent: minimalna i maksimalna vrijednost geografske duljine i širine granice područja uvećana za nekoliko sa svake strane granice područja, horizontal/vertical spacing: u ovisnosti o mjerilu određena gustoća mreže.)</i></p>
 
 **Napomena:** Voditi računa da mreža bude centrirana u odnosu na područje za koje se karta izrađuje (širina obuhvata (*extent*) mreže u odnosu na izračunatu gustoću mreže).
 
@@ -75,15 +80,17 @@ Meridijani i paralele u ravnini većine kartografskih projekcija nisu ravne već
 
 Progustiti geometriju dodavanjem lomnih točaka moguće je primjenom alata: *Vector* > *Geometry Tools* > *Densify by count*. Dobivene slojeve potrebno je spremiti u vanjsku datoteku shapefile u koordinatnom sustavu uspravne ekvidistantne cilindrične projekcije (x=λ, y=φ), EPSG: 4326.
 
-![Densify by count](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Densify%20by%20count.png)
+<p align="center">
+<img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Densify%20by%20count.png">
 
-*Primjer dodavanja lomnih točaka okviru*
+<p align="center"> <i>Primjer dodavanja lomnih točaka okviru.</i></p>
 
-*(Input layer: sloj granice područja, Vertices to add: proizvoljan)*
+<p align="center"> <i>(Input layer: sloj granice područja, Vertices to add: proizvoljan)</i></p>
 
-![Progusceno rezultat](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Progusceno.png)
+<p align="center">
+<img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Progusceno.png">
 
-*Prikaz iscrtane šire kartografske mreže s dodanim lomnim točkama*
+<p align="center"> <i>Prikaz iscrtane šire kartografske mreže s dodanim lomnim točkama</i></p>
 
 **4. Reprojiciranje**
 
@@ -93,9 +100,10 @@ Transformacija *On the fly* u koordinatni sustav kartografske projekcije izabran
 
 Granica područja, koja je prvotno bila pravokutna, može izgubiti taj oblik nakon transformacije u izabranu projekciju. Stoga je važno iz dobivenog oblika odrediti pravokutni okvir koji će predstavljati unutarnji okvir buduće karte. Taj okvir će služiti kao osnovna referenca u kompoziciji elemenata karte, osiguravajući da se svi prikazi i sadržaji unutar karte pravilno uklapaju u zadani prostor.
 
-![Extract layer extent](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Layer%20extent.png)
+<p align="center">
+<img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Layer%20extent.png">
 
-*Određivanje pravokutnog unutarnjeg okvira karte.*
+<p align="center"> <i>Određivanje pravokutnog unutarnjeg okvira karte.</i></p>
 
 Dobiveni okvir potrebno je spremiti u vanjsku datoteku shapefile u koordinatnom sustavu izabrane kartografske projekcije.
 
@@ -105,15 +113,17 @@ Dobiveni okvir potrebno je spremiti u vanjsku datoteku shapefile u koordinatnom 
 
 Mreža, koja je prekrivala šire područje od zadanog, odrezana je na unutarnji okvir karte. U tom slučaju, sloj unutarnjeg okvira poslužio je kao granica za izrezivanje koordinatne mreže. 
 
-![Rezanje mreže meridijana i paralela](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Intersection_okvir.png)
+<p align="center">
+<img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Intersection_okvir.png">
 
-*Izrezivanje šire mreže meridijana i paralela na unutarnji okvir karte primjenom naredbe Intersection*
+<p align="center"> <i>Izrezivanje šire mreže meridijana i paralela na unutarnji okvir karte primjenom naredbe Intersection.</i></p>
 
-![Parametri za intersection](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Intersection_alat.png)
+<p align="center">
+<img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Intersection_alat.png">
 
-*Primjer izbora parametara za presjek slojeva mreže i okvira*
+<p align="center"> <i>Primjer izbora parametara za presjek slojeva mreže i okvira.</i></p>
 
-*(Input layer: sloj koji se reže, Overlay layer: sloj po kojem se reže)*
+<p align="center"> <i>(Input layer: sloj koji se reže, Overlay layer: sloj po kojem se reže)</i></p>
 
 Dobiveni sloj potrebno je spremiti u vanjsku datoteku shapefile u koordinatnom sustavu izabrane kartografske projekcije.
 
@@ -121,9 +131,10 @@ Dobiveni sloj potrebno je spremiti u vanjsku datoteku shapefile u koordinatnom s
 
 Konačan rezultat na ovim vježbama uključuje mrežu meridijana i paralela, kao i pravokutni unutarnji okvir karte. Ti elementi zajedno čine osnovu za daljnje postupke u izradi karte.
 
-![Rezultat vježbi](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/1_Rezultat%20matematicke%20osnove.png)
+<p align="center">
+<img align="center" src="https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/1_Rezultat%20matematicke%20osnove.png">
 
-*Primjer dobivenog rezultata: unutarnji okvir karte s iscrtanom mrežom meridijana i paralela u odabranoj najpovoljnijoj projekciji*
+<p align="center"> <i>Primjer dobivenog rezultata: unutarnji okvir karte s iscrtanom mrežom meridijana i paralela u odabranoj najpovoljnijoj projekciji.</i></p>
 
 ### Literatura
 
