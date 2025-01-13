@@ -38,7 +38,7 @@ Za izradu karte potrebno je imati instaliran QGIS ili neki drugi GIS softver te 
 >[!TIP]
 >Popis studenata i pregled zadanih područja dostuapn je na sustavu za e-učenje Merlin, u e-kolegiju Digitalna kartografija.   
 
-<p style="color:grey; font-size:11px">Nastavne materijale pripremili Ana Kuveždić Divjak i Karlo Kević, Sveučilište u Zagrebu Geodetski fakultet. Tehnička priprema: Karlo Kević.</p>
+<p style="color:grey; font-size:11px">Nastavne materijale pripremili Ana Kuveždić Divjak i Karlo Kević, Sveučilište u Zagrebu Geodetski fakultet. Tehnička priprema: Karlo Kević. Grafička rješenja : Karlo Kević</p>
 
 
 
