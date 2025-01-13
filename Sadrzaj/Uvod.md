@@ -4,23 +4,17 @@ title: Uvod
 nav_order: 1
 has_children: true
 ---
-# Općegeografska karta sitnog mjerila 
+# Izrada općegeografske karte zadanog područja u sitnom mjerilu
+**(OD PRIKUPLJANJA PODATAKA ZA PRIKAZ NA KARTI DO PRIPREME ZA TISAK)**
 
-Tijek izrade kartografskog prikaza. Izvornici, poštovanje autorskih prava i prava na upotrebu. Prikupljanje i rukovanje podacima. Izbor i određivanje parametara kartografske projekcije. Izrada matematičke osnove karte. Transformacija podataka u koordinatni sustav izabrane kartografske projekcije. Izrada sjenčanog i hipsometijskog prikaza reljefa. Primjena postupaka kartografske generalizacije. Uređivanje podataka karte. Kartografika i kartografski znakovi. Usklađivanje sadržaja karte. Oblikovanje sastavnih dijelova karte. Grafička priprema karte za tisak. 
+Ovi materijali namijenjeni su studentima kolegija **Digitalna kartografija na Geodetskom fakulteta Sveučilišta u Zagrebu** i sadrže smjernice za računalom podržanu izradu općegeografske karte zadanog područja u sitnom mjerilu.
 
-Općegeografska karta sastoji se od 7 osnovnih skupova podataka:
->1. Reljef
->2. Administrativne granice
->3. Vode
->4. Naselja
->5. Prometnice
->6. Vegetacija
->7. Opis karte
+Karta je umanjen i uvjetno deformiran prikaz Zemljine površine. Da bi se izradile karte koje dobro opisuju Zemljinu površinu, kartografi trebaju čvrste temelje iz kartografskih osnova i visoki stupanj estetskih normi. Osim temeljnim znanjima kartografije, u dobu suvremene kartografije koje se oslanja na digitalne tehnologije, kartograf mora razumijeti i snagu analitičke kartografije te ovladati alatima računalne kartografije kako bi bio sposoban odgovoriti na zahtjeve koji se postavljaju na suvremenu kartografsku djelatnost.
+
+Općegeografske karte sitnog mjerila prikazuju 7 osnovnih skupova podataka (reljef, vode, vegetacija, naselja, promet, administrativne granice, opis karte) koji se zbog mjerila karte susreću s različitim problemima prikaza. Ovi materijali pružaju smjernice Na takvim kartama (mjerila 1:1 000 000 - 1:20 000 000), vegetacija se u pravilu ne prikazuje zbog preklapanja s hipsometrijskom skalom za prikazivanje reljefa. 
 
 > [!IMPORTANT]
-> Za izradu karte potrebno je imati instaliran QGIS ili neki drugi GIS softver.
+> Za izradu karte potrebno je imati instaliran QGIS ili neki drugi GIS softver. Ovi materijali prilagođeni su za izradu karte u QGIS-u, verzija [QGIS 3.26 Buenos Aires](https://blog.qgis.org/2022/06/24/qgis-3-26-buenos-aires-is-released/), ali su navedeni koncepti univerzalni i primijenjivi za izradu karte u bilo kojem programu za izradu karte. Verzija QGIS-a nije zadana i dana je studentu na izbor. Imajte na umu da se nazivi alata i naredbi mogu razlikovati ovisno o korištenoj verziji.
 
-> [!NOTE]
-> Ovi materijali prilagođeni su za izradu karte u QGIS-u, verzija [QGIS 3.26 Buenos Aires](https://blog.qgis.org/2022/06/24/qgis-3-26-buenos-aires-is-released/), ali su navedeni koncepti univerzalni i primijenjivi za izradu karte u bilo kojem programu za izradu karte. Verzija QGIS-a nije zadana i dana je studentu na izbor. Imajte na umu da se nazivi alata i naredbi mogu razlikovati ovisno o korištenoj verziji. 
 
 Popis studenata i pregled zadanih područja dostuapn je na sustavu za e-učenje Merlin, u e-kolegiju Digitalna kartografija.   
