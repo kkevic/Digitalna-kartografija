@@ -39,3 +39,25 @@ Potrebno je definirati korisnički koordinatni sustav, *Custom CRS (Coordinate R
 
 *Primjer definicije korisničkog koordinatnog sustava Lambertove konformne konusne projekcije s jednom standardnom paralelom pomoću sintakse PROJ-a.*
 
+>**1.3 Određivanje mjerila**
+
+Općenito, pri izradi karte mogu se javiti dva slučaja za određivanje mjerila: (1) mjerilo je unaprijed definirano ili (2) mjerilo je uvjetovano veličinom papira.
+
+U zadatku na vježbama ***mjerilo karte uvjetovano je veličinom papira*** – formatom papira A4. Vrijednost mjerila moguće je odrediti nakon uspostavljanja veze između veličine područja za izradu karte (u ravnini kartografske projekcije) i veličine papira.
+
+Mjerilo je moguće odrediti korištenjem modula QGIS-a Print *Layout*. Mjerilo je potrebno odabrati tako da bude zaokruženo na smislenu cjelobrojnu vrijednost.
+
+**2. Konstruiranje kartografske mreže u koordinatnom sustavu uspravne ekvidistantne cilindrične projekcije (x=λ, y=φ) – Lat/Lon pseudoprojekcija**
+
+Budući da je predefinirana kartografska projekcija QGIS-a [Lat/Lon EPSG: 4326](https://epsg.io/4326), ekvidistantna cilindrična projekcija s ravninskim koordinatama koje odgovaraju geografskoj širini i dužini, kartografska mreža u toj projekciji može se jednostavno iscrtati alatima dostupnima unutar QGIS-a. 
+
+Optimalna gustoća linija kartografske mreže određuje se prema:
+
+- > Optimalna gustoća mreže u mjerilu karte je približno 5 cm.
+- > Na ekvatoru je 1° približno 110 km.
+- > Ako je npr. mjerilo karte 1:1 000 000 tada je 5 cm na karti 50 km u prirodi, odnosno približno 0,5°.
+
+Kako prilikom transformacije mreže u izabranu projekciju ne bi došlo do gubitka koordinatnih linija (uslijed moguće promjene oblika mreže, npr. kod konusnih projekcija) potrebno je konstruirati kartografsku mrežu (zadane gustoće) koja je **šira** od zadanog područja.
+
+Za iscrtavanje kartografske mreže, koja je sa svake strane šira od granica zadanog područja, može se koristiti alat *Create Grid* iz trake s alatima *Vector* > *Research Tools*.
+
