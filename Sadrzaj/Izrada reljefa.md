@@ -1,14 +1,15 @@
 ---
 layout: default
-title: Izrada reljefa
+title: Reljef
 nav_order: 3
 parent: Uvod
 ---
-# Izrada reljefa 
+# Reljef 
 
 Na ovim vježbama student će odraditi predradnje nužne za izradu reljefa na karti temeljem podataka digitalnog modela reljefa (DMR). Nakon preuzimanja podataka, student će podatke transformirati u koordinatni sustav izabrane kartografske projekcije, prekontrolirati podacima hidrografije i izrezati na unutarnji okvir karte. Na preobrađene podataka digitalnog modela reljefa, student će primijeniti postupke filtriranja i računalnog sjenčanja. Dobiveni rezultati stvorit će dojam plastičnosti reljefa na karti: prikaz visina hipsometrijskom skalom boja i prikaz reljefnih oblika svjetlom i sjenom. 
 
-**Napomena:**Za izradu ovih vježbi potrebno je imati odrađene prethodne vježbe – kreiran sloj pravokutnog unutarnjeg okvira karte. Ovi materijali prilagođeni su izradi reljefa u GIS alatu [GRASS GIS 7.8.7](https://grass.osgeo.org/download/windows/), te njegovoj vizualizaciji u [QGIS 3.26 Buenos Aires](https://blog.qgis.org/2022/06/24/qgis-3-26-buenos-aires-is-released/).
+> [!NOTE]
+> Za izradu ovih vježbi potrebno je imati odrađene prethodne vježbe – kreiran sloj pravokutnog unutarnjeg okvira karte. Ovi materijali prilagođeni su izradi reljefa u GIS alatu [GRASS GIS 7.8.7](https://grass.osgeo.org/download/windows/), te njegovoj vizualizaciji u [QGIS 3.26 Buenos Aires](https://blog.qgis.org/2022/06/24/qgis-3-26-buenos-aires-is-released/).
 
 ## Ishodi učenja
 Po završetku  ovih vježbi student će moći:
@@ -25,4 +26,4 @@ Prikazivanje oblika reljefa Zemlje je složen kartografski zadataka jer se radi 
 
 ![izrada reljefa](https://github.com/kkevic/Digitalna-kartografija/blob/main/Sadrzaj/Slike/Reljef.svg)
 
-## Koraci u izradi matematičke osnove karte
+## Koraci u izradi reljefa
