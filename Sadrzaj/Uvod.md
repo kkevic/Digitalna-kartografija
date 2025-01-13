@@ -11,11 +11,21 @@ Ovi materijali namijenjeni su studentima kolegija **Digitalna kartografija na Ge
 
 Karta je umanjen i uvjetno deformiran prikaz Zemljine površine. Da bi se izradile karte koje dobro opisuju Zemljinu površinu, kartografi trebaju čvrste temelje iz kartografskih osnova i visoki stupanj estetskih normi. Osim temeljnim znanjima kartografije, u dobu suvremene kartografije koje se oslanja na digitalne tehnologije, kartograf mora razumijeti snagu analitičke kartografije te ovladati alatima računalne kartografije kako bi bio sposoban odgovoriti na zahtjeve koji se postavljaju na suvremenu kartografsku djelatnost.
 
-Općegeografske karte sitnog mjerila prikazuju 7 osnovnih skupova podataka (reljef, vode, vegetacija, naselja, promet, administrativne granice, opis karte) koji se zbog mjerila karte susreću s različitim problemima prikaza. U nastavku su dane smjernice na što obratiti pozornost prilikom prikazivanja podataka na takvoj karti te kako podatke prilagoditi za prikaz u traženom mjerilu.
+Općegeografske karte sitnog mjerila prikazuju 7 osnovnih skupova podataka (reljef, vode, vegetacija, naselja, promet, administrativne granice, opis karte) koji se zbog mjerila karte susreću s različitim problemima prikaza. U nastavku materijala su dane smjernice na što obratiti pozornost prilikom prikazivanja podataka na takvoj karti te kako podatke prilagoditi za prikaz u traženom mjerilu.
 
 > [!NOTE]
 > Na općegeografskim kartama sitnog mjerila (1:1 000 000 - 1:20 000 000), vegetacija se u pravilu ne prikazuje zbog preklapanja s hipsometrijskom skalom korištenom za prikazivanje reljefa.
 
+## Cilj vježbi
+Kroz praktične vježbe savladati metode i postupke izrade karte primjenom digitalne tehnologije.
+
+## Ishodi učenja
+Po završetku ovih vježbi student će moći:
+- > Razumjeti tijek izrade kartografskog prikaza i usvojiti temelje iz kartografskih osnova i visoki stupanj estetskih normi za oblikovanje kartografskog prikaza biti upoznat s autorskim pravima i pravima na upotrebu različitih izvornika,
+- > Razumjeti i znati primijeniti analitičke postupke u kartografiji,
+- > Razumjeti i znati izraditi matematičku osnovu karte,
+- > Razumjeti i znati primijeniti postupke ručne/interaktivne generalizacije na podacima karte u nekom od programa za kartografiju i GIS,
+- > Razumjeti i znati primijeniti sastavne dijelove kartografike na podacima karte u nekom od programa za kartografiju i GIS.
 
 
 > [!IMPORTANT]
