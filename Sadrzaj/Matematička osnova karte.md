@@ -5,7 +5,7 @@ nav_order: 2
 parent: Uvod
 ---
   
-# Izrada matematičke osnove karte 
+# Matematičke osnova karte 
 
 <p align="justify">Na ovim vježbama student će se upoznati sa zadanim područjem za izradu karte u sitnom mjerilu.
 Na temelju oblika i pružanja zadanog teritorija, student će odabrati najpovoljniju kartografsku projekciju, definirati njezine parametre, te na osnovu toga konstruirati mrežu meridijana i paralela odgovarajuće gustoće, kao i pravokutni unutarnji okvir karte.
