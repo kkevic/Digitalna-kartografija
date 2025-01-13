@@ -36,7 +36,7 @@ Za izradu karte potrebno je imati instaliran QGIS ili neki drugi GIS softver te 
 > Ovi materijali prilagođeni su za izradu karte u QGIS-u, verzija [QGIS 3.26 Buenos Aires](https://blog.qgis.org/2022/06/24/qgis-3-26-buenos-aires-is-released/), ali su navedeni koncepti univerzalni i primijenjivi za izradu karte u bilo kojem programu za izradu karte. Verzija QGIS-a nije zadana i dana je studentu na izbor. Imajte na umu da se nazivi alata i naredbi mogu razlikovati ovisno o korištenoj verziji.
 
 >[!TIP]
->Popis studenata i pregled zadanih područja dostuapn je na sustavu za e-učenje Merlin, u e-kolegiju Digitalna kartografija.   
+>Popis studenata i pregled zadanih područja dostupan je na sustavu za e-učenje Merlin, u e-kolegiju Digitalna kartografija.   
 
 <p style="color:grey; font-size:11px">Nastavne materijale pripremili Ana Kuveždić Divjak i Karlo Kević, Sveučilište u Zagrebu Geodetski fakultet. Tehnička priprema: Karlo Kević. Grafička rješenja : Karlo Kević</p>
 
